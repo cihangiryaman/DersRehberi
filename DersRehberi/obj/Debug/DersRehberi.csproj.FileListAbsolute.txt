@@ -1,0 +1,10 @@
+C:\Users\MMFH\source\repos\DersRehberi\bin\Debug\DersRehberi.exe.config
+C:\Users\MMFH\source\repos\DersRehberi\bin\Debug\DersRehberi.exe
+C:\Users\MMFH\source\repos\DersRehberi\bin\Debug\DersRehberi.pdb
+C:\Users\MMFH\source\repos\DersRehberi\obj\Debug\DersRehberi.csprojAssemblyReference.cache
+C:\Users\MMFH\source\repos\DersRehberi\obj\Debug\DersRehberi.Form1.resources
+C:\Users\MMFH\source\repos\DersRehberi\obj\Debug\DersRehberi.Properties.Resources.resources
+C:\Users\MMFH\source\repos\DersRehberi\obj\Debug\DersRehberi.csproj.GenerateResource.cache
+C:\Users\MMFH\source\repos\DersRehberi\obj\Debug\DersRehberi.csproj.CoreCompileInputs.cache
+C:\Users\MMFH\source\repos\DersRehberi\obj\Debug\DersRehberi.exe
+C:\Users\MMFH\source\repos\DersRehberi\obj\Debug\DersRehberi.pdb

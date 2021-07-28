@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F82C3BE6-B109-44E4-86BC-C2A3E8D1231D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DersRehberi.UI.Windows</RootNamespace>
+    <AssemblyName>DersRehberi.UI.Windows</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\..\Downloads\Bunifu DLL\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="XanderUI">
+      <HintPath>..\..\..\..\Downloads\XanderUI-master\XanderUI-master\XanderUI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\AnaEkranFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AnaEkranFrm.Designer.cs">
+      <DependentUpon>AnaEkranFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\OgrenciGirisFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OgrenciGirisFrm.Designer.cs">
+      <DependentUpon>OgrenciGirisFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\DuyuruUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DuyuruUC.Designer.cs">
+      <DependentUpon>DuyuruUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\OgrenciGirisUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\OgrenciGirisUC.Designer.cs">
+      <DependentUpon>OgrenciGirisUC.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\AnaEkranFrm.resx">
+      <DependentUpon>AnaEkranFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OgrenciGirisFrm.resx">
+      <DependentUpon>OgrenciGirisFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserControls\DuyuruUC.resx">
+      <DependentUpon>DuyuruUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\OgrenciGirisUC.resx">
+      <DependentUpon>OgrenciGirisUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Teknofest.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_close_window_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize_window_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize_window_30px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize_window_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize_window_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\çizgi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize_window_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_127px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_64px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_rounded_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullhorn_megaphone_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullhorn_megaphone_64px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student_male_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\school_director_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_127px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_50px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_male_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_male_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\school_director_52px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student_male_52px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DersRehberi.BLL\DersRehberi.BLL.csproj">
+      <Project>{72735D65-7CB5-4402-AACA-CCF87C43DBB4}</Project>
+      <Name>DersRehberi.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DersRehberi.Entities\DersRehberi.Entities.csproj">
+      <Project>{B0B14951-B25C-4014-AFFD-50B60EAFFF55}</Project>
+      <Name>DersRehberi.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

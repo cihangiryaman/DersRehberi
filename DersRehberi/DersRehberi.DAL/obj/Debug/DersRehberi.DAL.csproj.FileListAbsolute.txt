@@ -1,0 +1,15 @@
+C:\Users\MMFH\source\repos\DersRehberi\DersRehberi.DAL\bin\Debug\DersRehberi.DAL.dll.config
+C:\Users\MMFH\source\repos\DersRehberi\DersRehberi.DAL\bin\Debug\DersRehberi.DAL.dll
+C:\Users\MMFH\source\repos\DersRehberi\DersRehberi.DAL\bin\Debug\DersRehberi.DAL.pdb
+C:\Users\MMFH\source\repos\DersRehberi\DersRehberi.DAL\bin\Debug\DersRehberi.Entities.dll
+C:\Users\MMFH\source\repos\DersRehberi\DersRehberi.DAL\bin\Debug\EntityFramework.dll
+C:\Users\MMFH\source\repos\DersRehberi\DersRehberi.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MMFH\source\repos\DersRehberi\DersRehberi.DAL\bin\Debug\DersRehberi.Entities.pdb
+C:\Users\MMFH\source\repos\DersRehberi\DersRehberi.DAL\bin\Debug\DersRehberi.Entities.dll.config
+C:\Users\MMFH\source\repos\DersRehberi\DersRehberi.DAL\bin\Debug\EntityFramework.xml
+C:\Users\MMFH\source\repos\DersRehberi\DersRehberi.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MMFH\source\repos\DersRehberi\DersRehberi.DAL\obj\Debug\DersRehberi.DAL.csproj.AssemblyReference.cache
+C:\Users\MMFH\source\repos\DersRehberi\DersRehberi.DAL\obj\Debug\DersRehberi.DAL.csproj.CoreCompileInputs.cache
+C:\Users\MMFH\source\repos\DersRehberi\DersRehberi.DAL\obj\Debug\DersRehberi.DAL.csproj.CopyComplete
+C:\Users\MMFH\source\repos\DersRehberi\DersRehberi.DAL\obj\Debug\DersRehberi.DAL.dll
+C:\Users\MMFH\source\repos\DersRehberi\DersRehberi.DAL\obj\Debug\DersRehberi.DAL.pdb

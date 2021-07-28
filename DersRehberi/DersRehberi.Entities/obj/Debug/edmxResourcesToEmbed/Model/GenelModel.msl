@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DersRehberiModelStoreContainer" CdmEntityContainer="DersRehberiEntities">
+    <EntitySetMapping Name="Adresler">
+      <EntityTypeMapping TypeName="DersRehberiModel.Adresler">
+        <MappingFragment StoreEntitySet="Adresler">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IlceId" ColumnName="IlceId" />
+          <ScalarProperty Name="AcikAdres" ColumnName="AcikAdres" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Branslar">
+      <EntityTypeMapping TypeName="DersRehberiModel.Branslar">
+        <MappingFragment StoreEntitySet="Branslar">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="BransIsmi" ColumnName="BransIsmi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Dereceler">
+      <EntityTypeMapping TypeName="DersRehberiModel.Dereceler">
+        <MappingFragment StoreEntitySet="Dereceler">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Derece" ColumnName="Derece" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Dersler">
+      <EntityTypeMapping TypeName="DersRehberiModel.Dersler">
+        <MappingFragment StoreEntitySet="Dersler">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="OkulId" ColumnName="OkulId" />
+          <ScalarProperty Name="DereceId" ColumnName="DereceId" />
+          <ScalarProperty Name="DersAdi" ColumnName="DersAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DogruSecenekler">
+      <EntityTypeMapping TypeName="DersRehberiModel.DogruSecenekler">
+        <MappingFragment StoreEntitySet="DogruSecenekler">
+          <ScalarProperty Name="SecenekId" ColumnName="SecenekId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ilceler">
+      <EntityTypeMapping TypeName="DersRehberiModel.Ilceler">
+        <MappingFragment StoreEntitySet="Ilceler">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SehirId" ColumnName="SehirId" />
+          <ScalarProperty Name="IlceIsmi" ColumnName="IlceIsmi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IletisimBilgileri">
+      <EntityTypeMapping TypeName="DersRehberiModel.IletisimBilgileri">
+        <MappingFragment StoreEntitySet="IletisimBilgileri">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SahipId" ColumnName="SahipId" />
+          <ScalarProperty Name="TelefonNumarasi" ColumnName="TelefonNumarasi" />
+          <ScalarProperty Name="EPostaAdresi" ColumnName="EPostaAdresi" />
+          <ScalarProperty Name="AdresId" ColumnName="AdresId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kazanimlar">
+      <EntityTypeMapping TypeName="DersRehberiModel.Kazanimlar">
+        <MappingFragment StoreEntitySet="Kazanimlar">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="KonuId" ColumnName="KonuId" />
+          <ScalarProperty Name="KazanimAdi" ColumnName="KazanimAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kisiler">
+      <EntityTypeMapping TypeName="DersRehberiModel.Kisiler">
+        <MappingFragment StoreEntitySet="Kisiler">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+          <ScalarProperty Name="DogumTarihi" ColumnName="DogumTarihi" />
+          <ScalarProperty Name="Sifre" ColumnName="Sifre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KonuAnlatimlari">
+      <EntityTypeMapping TypeName="DersRehberiModel.KonuAnlatimlari">
+        <MappingFragment StoreEntitySet="KonuAnlatimlari">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="KonuId" ColumnName="KonuId" />
+          <ScalarProperty Name="KonuAnlatimTurId" ColumnName="KonuAnlatimTurId" />
+          <ScalarProperty Name="OlusturanPersonelId" ColumnName="OlusturanPersonelId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KonuAnlatimTurleri">
+      <EntityTypeMapping TypeName="DersRehberiModel.KonuAnlatimTurleri">
+        <MappingFragment StoreEntitySet="KonuAnlatimTurleri">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TurAdi" ColumnName="TurAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KonuAnlatimVerileri">
+      <EntityTypeMapping TypeName="DersRehberiModel.KonuAnlatimVerileri">
+        <MappingFragment StoreEntitySet="KonuAnlatimVerileri">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="KonuAnlatimId" ColumnName="KonuAnlatimId" />
+          <ScalarProperty Name="Veri" ColumnName="Veri" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Konular">
+      <EntityTypeMapping TypeName="DersRehberiModel.Konular">
+        <MappingFragment StoreEntitySet="Konular">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UniteId" ColumnName="UniteId" />
+          <ScalarProperty Name="KonuAdi" ColumnName="KonuAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ogrenciler">
+      <EntityTypeMapping TypeName="DersRehberiModel.Ogrenciler">
+        <MappingFragment StoreEntitySet="Ogrenciler">
+          <ScalarProperty Name="KisiId" ColumnName="KisiId" />
+          <ScalarProperty Name="OkulNo" ColumnName="OkulNo" />
+          <ScalarProperty Name="SinifId" ColumnName="SinifId" />
+          <ScalarProperty Name="VeliId" ColumnName="VeliId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Okullar">
+      <EntityTypeMapping TypeName="DersRehberiModel.Okullar">
+        <MappingFragment StoreEntitySet="Okullar">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="OkulIsmi" ColumnName="OkulIsmi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Personeller">
+      <EntityTypeMapping TypeName="DersRehberiModel.Personeller">
+        <MappingFragment StoreEntitySet="Personeller">
+          <ScalarProperty Name="KisilId" ColumnName="KisilId" />
+          <ScalarProperty Name="BransId" ColumnName="BransId" />
+          <ScalarProperty Name="UnvanId" ColumnName="UnvanId" />
+          <ScalarProperty Name="OkulId" ColumnName="OkulId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SecenekAnlatimTurleri">
+      <EntityTypeMapping TypeName="DersRehberiModel.SecenekAnlatimTurleri">
+        <MappingFragment StoreEntitySet="SecenekAnlatimTurleri">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TurAdi" ColumnName="TurAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Secenekler">
+      <EntityTypeMapping TypeName="DersRehberiModel.Secenekler">
+        <MappingFragment StoreEntitySet="Secenekler">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SoruId" ColumnName="SoruId" />
+          <ScalarProperty Name="AnlatimTurId" ColumnName="AnlatimTurId" />
+          <ScalarProperty Name="SecenekIsmi" ColumnName="SecenekIsmi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SecenekVerileri">
+      <EntityTypeMapping TypeName="DersRehberiModel.SecenekVerileri">
+        <MappingFragment StoreEntitySet="SecenekVerileri">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SecenekId" ColumnName="SecenekId" />
+          <ScalarProperty Name="Veri" ColumnName="Veri" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sehirler">
+      <EntityTypeMapping TypeName="DersRehberiModel.Sehirler">
+        <MappingFragment StoreEntitySet="Sehirler">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SehirIsmi" ColumnName="SehirIsmi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sinavlar">
+      <EntityTypeMapping TypeName="DersRehberiModel.Sinavlar">
+        <MappingFragment StoreEntitySet="Sinavlar">
+          <ScalarProperty Name="TestId" ColumnName="TestId" />
+          <ScalarProperty Name="OlusturanPersonelId" ColumnName="OlusturanPersonelId" />
+          <ScalarProperty Name="SinavAdi" ColumnName="SinavAdi" />
+          <ScalarProperty Name="BaslangicTarihi" ColumnName="BaslangicTarihi" />
+          <ScalarProperty Name="BitisTarihi" ColumnName="BitisTarihi" />
+          <ScalarProperty Name="Sure" ColumnName="Sure" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Siniflar">
+      <EntityTypeMapping TypeName="DersRehberiModel.Siniflar">
+        <MappingFragment StoreEntitySet="Siniflar">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="OkulId" ColumnName="OkulId" />
+          <ScalarProperty Name="DereceId" ColumnName="DereceId" />
+          <ScalarProperty Name="Sube" ColumnName="Sube" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SoruAnlatimTurleri">
+      <EntityTypeMapping TypeName="DersRehberiModel.SoruAnlatimTurleri">
+        <MappingFragment StoreEntitySet="SoruAnlatimTurleri">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TurAdi" ColumnName="TurAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sorular">
+      <EntityTypeMapping TypeName="DersRehberiModel.Sorular">
+        <MappingFragment StoreEntitySet="Sorular">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="DersId" ColumnName="DersId" />
+          <ScalarProperty Name="AnlatimTurId" ColumnName="AnlatimTurId" />
+          <ScalarProperty Name="OlusturanPersonelId" ColumnName="OlusturanPersonelId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SoruVerileri">
+      <EntityTypeMapping TypeName="DersRehberiModel.SoruVerileri">
+        <MappingFragment StoreEntitySet="SoruVerileri">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SoruId" ColumnName="SoruId" />
+          <ScalarProperty Name="Veri" ColumnName="Veri" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="DersRehberiModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TesteBagliSorular">
+      <EntityTypeMapping TypeName="DersRehberiModel.TesteBagliSorular">
+        <MappingFragment StoreEntitySet="TesteBagliSorular">
+          <ScalarProperty Name="SoruId" ColumnName="SoruId" />
+          <ScalarProperty Name="TestId" ColumnName="TestId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Testler">
+      <EntityTypeMapping TypeName="DersRehberiModel.Testler">
+        <MappingFragment StoreEntitySet="Testler">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="OlusturanPersonelId" ColumnName="OlusturanPersonelId" />
+          <ScalarProperty Name="TestAdi" ColumnName="TestAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Uniteler">
+      <EntityTypeMapping TypeName="DersRehberiModel.Uniteler">
+        <MappingFragment StoreEntitySet="Uniteler">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="DersId" ColumnName="DersId" />
+          <ScalarProperty Name="UniteAdi" ColumnName="UniteAdi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Unvanlar">
+      <EntityTypeMapping TypeName="DersRehberiModel.Unvanlar">
+        <MappingFragment StoreEntitySet="Unvanlar">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UnvanIsmi" ColumnName="UnvanIsmi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Veliler">
+      <EntityTypeMapping TypeName="DersRehberiModel.Veliler">
+        <MappingFragment StoreEntitySet="Veliler">
+          <ScalarProperty Name="KisiId" ColumnName="KisiId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="KazanımKavramaTestleri" TypeName="DersRehberiModel.KazanımKavramaTestleri" StoreEntitySet="KazanımKavramaTestleri">
+      <EndProperty Name="Kazanimlar">
+        <ScalarProperty Name="Id" ColumnName="KazanimId" />
+      </EndProperty>
+      <EndProperty Name="Testler">
+        <ScalarProperty Name="Id" ColumnName="TestId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="KonuTaramaTestleri" TypeName="DersRehberiModel.KonuTaramaTestleri" StoreEntitySet="KonuTaramaTestleri">
+      <EndProperty Name="Konular">
+        <ScalarProperty Name="Id" ColumnName="KonuId" />
+      </EndProperty>
+      <EndProperty Name="Testler">
+        <ScalarProperty Name="Id" ColumnName="TestId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="OgrenciyeOzelTest" TypeName="DersRehberiModel.OgrenciyeOzelTest" StoreEntitySet="OgrenciyeOzelTest">
+      <EndProperty Name="Ogrenciler">
+        <ScalarProperty Name="KisiId" ColumnName="OgrenciId" />
+      </EndProperty>
+      <EndProperty Name="Testler">
+        <ScalarProperty Name="Id" ColumnName="TestId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="UniteTekrarTestleri" TypeName="DersRehberiModel.UniteTekrarTestleri" StoreEntitySet="UniteTekrarTestleri">
+      <EndProperty Name="Testler">
+        <ScalarProperty Name="Id" ColumnName="TestId" />
+      </EndProperty>
+      <EndProperty Name="Uniteler">
+        <ScalarProperty Name="Id" ColumnName="UniteId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <EntitySetMapping Name="Duyurular">
+      <EntityTypeMapping TypeName="DersRehberiModel.Duyurular">
+        <MappingFragment StoreEntitySet="Duyurular">
+          <ScalarProperty Name="Icerik" ColumnName="Icerik" />
+          <ScalarProperty Name="KisaIcerik" ColumnName="KisaIcerik" />
+          <ScalarProperty Name="Baslik" ColumnName="Baslik" />
+          <ScalarProperty Name="ResimDosyaYolu" ColumnName="ResimDosyaYolu" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
